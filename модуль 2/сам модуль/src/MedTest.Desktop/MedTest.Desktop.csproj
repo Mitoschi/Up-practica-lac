@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MedTest</AssemblyName>
+    <RootNamespace>MedTest.Desktop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../MedTest.Core/MedTest.Core.csproj" />
+    <ProjectReference Include="../MedTest.Data/MedTest.Data.csproj" />
+  </ItemGroup>
+</Project>
